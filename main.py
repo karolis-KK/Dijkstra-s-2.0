@@ -100,7 +100,7 @@ root.geometry("300x200")
 start_frame = ctk.CTkFrame(root)
 start_frame.pack(pady=10)
 
-start_label = ctk.CTkLabel(start_frame, text="Start <40:")
+start_label = ctk.CTkLabel(start_frame, text="0 =< Start < 40:")
 start_label.pack(side=ctk.LEFT)
 
 start_x = ctk.CTkEntry(start_frame, width=50)
@@ -112,7 +112,7 @@ start_y.pack(side=ctk.LEFT, padx=5)
 end_frame = ctk.CTkFrame(root)
 end_frame.pack(pady=10)
 
-end_label = ctk.CTkLabel(end_frame, text="End <40:")
+end_label = ctk.CTkLabel(end_frame, text="0 <= End <40:")
 end_label.pack(side=ctk.LEFT)
 
 end_x = ctk.CTkEntry(end_frame, width=50)
