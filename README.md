@@ -7,7 +7,7 @@ Simple Dijkstra's algo visualisation | Don't close the ctk window, as you can ch
 
 - Left click to draw obstacles
 - Middle click to add/remove waypoints
-- Right click to remvoe obstacles
+- Right click to remove obstacles
 - Enter to start the algorithm
 
 After you've setup/changed your settings click start visualisation and then click on the pygame window and press enter.
